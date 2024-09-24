@@ -29,7 +29,7 @@ import java.util.List;
 public class UpperCaseStream {
 
     public static void main(String[] args) {
-        List<String> texts = List.of("ana", "are", "mere");
+        List<String> texts = new ArrayList<>(List.of("ana", "are", "mere"));
         displayTexts(texts);
 
         List<String> textsUpper1 = convertStringListToUpperCaseFor(texts);
